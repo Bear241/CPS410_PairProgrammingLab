@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GuessNumberTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2025-10-01T15:29:04.108Z" hostname="NOAH-THINKPAD" time="0.044">
+  <properties/>
+  <testcase name="isInteger_emptyNumber_returnsFalse()" classname="GuessNumberTest" time="0.018"/>
+  <testcase name="guessNumber_numberBelowRange_returnsFalse()" classname="GuessNumberTest" time="0.007"/>
+  <testcase name="guessNumber_numberCorrectlyGuessed_returnsTrue()" classname="GuessNumberTest" time="0.002"/>
+  <testcase name="isInteger_numberIsInteger_returnsTrue()" classname="GuessNumberTest" time="0.001"/>
+  <testcase name="guessNumber_numberAboveRange_returnsFalse()" classname="GuessNumberTest" time="0.0"/>
+  <testcase name="guessNumber_guessBelowRange_returnsFalse()" classname="GuessNumberTest" time="0.001"/>
+  <testcase name="isInteger_notAnInteger_returnsFalse()" classname="GuessNumberTest" time="0.001"/>
+  <testcase name="guessNumber_guessAboveRange_returnsFalse()" classname="GuessNumberTest" time="0.002"/>
+  <testcase name="guessNumber_numberNotGuessed_returnsFalse()" classname="GuessNumberTest" time="0.001"/>
+  <testcase name="isInteger_nullNumber_returnsFalse()" classname="GuessNumberTest" time="0.001"/>
+  <system-out><![CDATA[Sorry, the number was 0.
+Congratulations! You guessed the number 12.
+Sorry, the number was 101.
+Sorry, the number was 50.
+Sorry, the number was 50.
+Sorry, the number was 12.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
